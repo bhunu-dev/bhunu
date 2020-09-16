@@ -4,7 +4,14 @@
     margin: 0;
 }
 body {
-    background-image: #;
+    background-image: url(image1.jpg);
     background-size: cover;
     background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
+.menu-bar
+(
+    background-color: blue;
+    text-align: center;
+)
