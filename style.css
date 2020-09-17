@@ -3,15 +3,19 @@
     padding: 0;
     margin: 0;
 }
-body {
-    background-image: url(image1.jpg);
+body{
+    background-image: url("images/image3.jpg");
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-.menu-bar
-(
-    background-color: blue;
+.menu-bar {
+    background-color:rgb(8, 19, 139);
     text-align: center;
-)
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
