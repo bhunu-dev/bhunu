@@ -2,20 +2,36 @@
 {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
-    background-image: url("images/image3.jpg");
+    background-image: url("images/image1.jpg");
     background-size: cover;
     background-position: center;
-    box-sizing: border-box;
     font-family: sans-serif;
 }
 .menu-bar {
     background-color:rgb(8, 19, 139);
     text-align: center;
+    padding: 30px;
+    padding-right: 100px;
+    
 }
 .menu-bar ul{
     display: inline-flex;
     list-style: none;
     color: white;
+}
+.menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+active, .menu-bar ul li:hover{
+    background: cornflowerblue;
+    border-radius: 3px;
 }
