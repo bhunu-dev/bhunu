@@ -1,42 +1,39 @@
 *
 {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-image: url("images/image1.jpg");
+    background-image: url("images/image5.jpg");
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
 }
-.menu-bar {
-    background-color:rgb(8, 19, 139);
+.menu-bar{
+    background: rgb(40, 28, 148);
     text-align: center;
-    padding: 30px;
-    padding-right: 100px;
-    
 }
 .menu-bar ul{
     display: inline-flex;
     list-style: none;
     color: white;
 }
-.menu-bar ul li {
+.menu-bar ul li{
     width: 120px;
     margin: 15px;
     padding: 15px;
 }
-.menu-bar ul li a {
+.menu-bar ul li a{
     text-decoration: none;
     color: white;
 }
-active, .menu-bar ul li:hover{
-    background: cornflowerblue;
+.active, .menu-bar ul li:hover{
+    background: rgb(8, 2, 100);
     border-radius: 3px;
 }
-.menu-bar .fa{
-    margin-right: 9px;
+ .menu-bar .fa{
+margin-right: 8px;
 }
 .sub-menu-1{
     display: none;
@@ -44,7 +41,28 @@ active, .menu-bar ul li:hover{
 .menu-bar ul li:hover .sub-menu-1{
     display: block;
     position: absolute;
-    background:rgb(3, 18, 46);
+    background: rgba(14, 14, 228, 0.856);
     margin-top: 15px;
     margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 9px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 2px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: rgba(212, 218, 245, 0.856);
+}
+.fa-angle-right{
+    float: right;
 }
