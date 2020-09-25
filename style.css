@@ -41,7 +41,7 @@ margin-right: 8px;
 .menu-bar ul li:hover .sub-menu-1{
     display: block;
     position: absolute;
-    background: rgba(14, 14, 228, 0.856);
+    background: rgb(40, 28, 148);
     margin-top: 15px;
     margin-left: -15px;
 }
@@ -65,4 +65,15 @@ margin-right: 8px;
 }
 .fa-angle-right{
     float: right;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover  .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: rgb(40, 28, 148);
+
 }
